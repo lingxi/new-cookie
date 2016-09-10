@@ -2,7 +2,7 @@
 
 # Install
 
-composer require lingxi/cookie
+composer require lingxi/new-cookie
 
 [![Build Status](https://travis-ci.org/LingxiTeam/cookie.svg?branch=master)](https://travis-ci.org/LingxiTeam/cookie.svg?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/lingxi/cookie/v/stable)](https://packagist.org/packages/lingxi/cookie)
