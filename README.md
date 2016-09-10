@@ -4,10 +4,10 @@
 
 composer require lingxi/new-cookie
 
-[![Build Status](https://travis-ci.org/LingxiTeam/cookie.svg?branch=master)](https://travis-ci.org/LingxiTeam/cookie.svg?branch=master)
-[![Latest Stable Version](https://poser.pugx.org/lingxi/cookie/v/stable)](https://packagist.org/packages/lingxi/cookie)
-[![Total Downloads](https://poser.pugx.org/lingxi/cookie/downloads)](https://packagist.org/packages/lingxi/cookie)
-[![License](https://poser.pugx.org/lingxi/cookie/license)](https://packagist.org/packages/lingxi/cookie)
+[![Build Status](https://travis-ci.org/LingxiTeam/new-cookie.svg?branch=master)](https://travis-ci.org/LingxiTeam/new-cookie.svg?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/lingxi/new-cookie/v/stable)](https://packagist.org/packages/lingxi/new-cookie)
+[![Total Downloads](https://poser.pugx.org/lingxi/new-cookie/downloads)](https://packagist.org/packages/lingxi/new-cookie)
+[![License](https://poser.pugx.org/lingxi/new-cookie/license)](https://packagist.org/packages/lingxi/new-cookie)
 
 # Config
 
