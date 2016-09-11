@@ -63,6 +63,6 @@ class CookieJar extends IlluminateCookieJar
      */
     public function getName($key)
     {
-        return $this->addKeyPerfix(config('session.key_prefix') . '_' . $key, '_', true);
+        return $this->addKeyPerfix(config('session.key_prefix').'_'.$key, '_', true);
     }
 }
