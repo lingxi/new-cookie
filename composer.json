@@ -11,12 +11,11 @@
     "require": {
         "symfony/http-foundation": "2.8.* || 3.0.* || 3.1.*",
         "illuminate/support": "5.1.* || 5.2.* || 5.3.*",
-        "lingxi/laravel-timestamp": "^0.0.1"
+        "lingxi/laravel-deploy": "^0.0.1"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0"
     },
-    "minimum-stability": "dev",
     "repositories": {
         "packagist": {
             "type": "composer",
