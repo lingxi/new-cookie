@@ -3,7 +3,7 @@
 namespace Lingxi\Cookie;
 
 use Illuminate\Support\Arr;
-use Lingxi\Deploy\Timestamp\TimestampKey;
+use Lingxi\LaravelDeploy\TimestampKey;
 use Symfony\Component\HttpFoundation\Cookie;
 use Illuminate\Cookie\CookieJar as IlluminateCookieJar;
 
