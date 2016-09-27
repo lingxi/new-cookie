@@ -20,9 +20,9 @@ In app.php config file.
 
     add
     Lingxi\Cookie\CookieServiceProvider::class,
-    'Cookie' => App\Services\Cookie\CookieFacade::class,
+    'Cookie' => Lingxi\Cookie\CookieFacade::class,
 
 In session.php
 
     add
-    'key_prefix' => 'foo',
+    'key_prefix' => 'lingxi',
