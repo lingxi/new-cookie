@@ -65,4 +65,15 @@ class CookieJar extends IlluminateCookieJar
     {
         return $this->addKeyPerfix(config('session.key_prefix').'_'.$key, '_', true);
     }
+
+    /**
+     * Get last deploy cookie key name.
+     *
+     * @param  string $key
+     * @return string
+     */
+    public function getLastName($key)
+    {
+        return $this->addKeyPerfix(config('session.key_prefix').'_'.$key, '_', true, true);
+    }
 }

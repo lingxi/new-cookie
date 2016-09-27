@@ -29,7 +29,17 @@ class CookieFacade extends Facade
      */
     public static function get($key = null, $default = null)
     {
-        return static::$app['request']->cookie(static::getName($key), $default);
+        $result = static::$app['request']->cookie(static::getName($key));
+
+        if ($result === null) {
+            $result = static::$app['request']->cookie(static::getLastName($key));
+        }
+
+        if ($result === null) {
+            $result = $default;
+        }
+
+        return $result;
     }
 
     /**
